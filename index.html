@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+    <main>
+        <div class="container1">
+            <p id="scoreHome">0</p>
+            <h2 id="Home">Home</h2>
+            <div id="buttonHome">
+                <button onclick="plusone()">+1</button>
+                <button onclick="plustwo()">+2</button>
+                <button onclick="plusthree()">+3</button>
+            </div>
+        </div>
+        <div class="container2">
+             <div><p id="scoreAway">0</p></div>
+             <h2 id="Away">Away</h2>
+               <div id="buttonAway">
+                <button onclick="plusOneAway()">+1</button>
+                <button onclick="plusTwoAway()">+2</button>
+                <button onclick="plusThreeAway()">+3</button>
+              </div>  
+        </div>
+        <div id="reset">
+         <button onclick="reset()">reset</button>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

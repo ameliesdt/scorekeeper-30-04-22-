@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Orbitron&display=swap");
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    /* display: inline-block; ===Beim Auskommentieren erscheint der ganze Header auf der Seite, wieso ist das so?=== */
+}
+
+html {
+    background-color: #2C2C2C;
+} 
+
+main {
+    width: 1440px;
+    height: 1024px; 
+}
+
+ /* ==CONTAINER== */
+.container1 {
+    border: 5px solid #97F5BB;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display:inline-block;
+    width: 489px;
+    height: 489px;
+    margin: 120px 0 0 150px;
+}
+
+.container2 {
+    border: 5px solid #525DF4;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display:inline-block;
+    width: 489px;
+    height: 489px;
+    margin-left: 120px;
+
+}
+
+/* ==Inner Container==  */
+#scoreHome {
+    width: 415px;
+    height: 415px;
+    background: #000000;
+    border-radius: 30px;
+    margin:auto;
+    margin-top:37px;
+}
+#scoreAway {
+    width: 415px;
+    height: 415px;
+    background: #000000;
+    border-radius: 30px;
+    margin:auto;
+    margin-top:37px;
+}
+
+/* ==Counter== */
+ p {
+    width: 225px;
+    height: 188px;
+    font-family: 'Orbitron';
+    font-size: 150px;
+    color: #FDF860;
+    text-align: center;
+}
+
+/* ==Button== */
+#buttonHome button{
+    font-family: "Lato";
+    font-size:37px;
+    width: 105px;
+    height: 105px;
+    background: #97F5BB;
+    border-radius: 20px;
+    color:white;
+    margin: 120px 0 0 35px;
+}
+#buttonAway button{
+    font-family: "Lato";
+    font-size:37px;
+    width: 105px;
+    height: 105px;
+    background: #525DF4;
+    color:white;
+    border-radius: 20px;
+    margin: 120px 0 0 35px;
+} 
+
+/* ==reset== */
+
+ #reset button {
+    font-family: 'Lato';
+    color: #2C2C2C;
+    margin-left:30%;
+    width: 122px;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 150px 0 0 640px;
+} 
+
+/* ==h2== */
+#Home {
+    color:white;
+    background-color:  #2C2C2C;
+    font-family: "Orbitron";
+    text-transform: uppercase;
+    font-size: 37px;
+    padding: auto;
+    margin-left:150px;
+    width: 119px;
+    height: 46px;
+}
+
+#Away {
+    color:white;
+    background-color:  #2C2C2C;
+    font-family: "Orbitron";
+    text-transform: uppercase;
+    font-size: 37px;
+    padding: auto;
+    margin-left:190px;
+    width: 119px;
+    height: 46px;
+} 
